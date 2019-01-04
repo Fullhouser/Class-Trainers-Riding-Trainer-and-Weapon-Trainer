@@ -3,16 +3,16 @@ Class Trainers, Riding Trainer and Weapon Trainer made by Fullhouser
 */
 
 REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,npcflag,scale,unit_class,type) VALUES
-(900000,24036,'Warrior Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900001,24032,'Paladin Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900002,24030,'Hunter Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900003,23777,'Rogue Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900004,24033,'Priest Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900005,28516,'Death Knight Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900006,24034,'Shaman Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900007,24031,'Mage Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900008,24035,'Warlock Trainer','Server Trainer',80,80,35,51,1,2,7),
-(900009,24029,'Druid Trainer','Server Trainer',80,80,35,51,1,2,7);
+(900000,24036,'Warrior Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900001,24032,'Paladin Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900002,24030,'Hunter Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900003,23777,'Rogue Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900004,24033,'Priest Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900005,28516,'Death Knight Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900006,24034,'Shaman Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900007,24031,'Mage Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900008,24035,'Warlock Trainer','Server Trainer',80,80,35,51,2,2,7),
+(900009,24029,'Druid Trainer','Server Trainer',80,80,35,51,2,2,7);
 
 REPLACE INTO trainer (id, type, requirement, greeting) VALUES
 (900000, 0, 1, "Hello, Warrior!  Ready for some training?"),
@@ -2517,7 +2517,7 @@ REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,
 (900011,30790,'Riding Trainer','Server Trainer',80,80,35,16,1,2,7);
 
 REPLACE INTO trainer (id, type, greeting) VALUES
-(900011, 1, "Hello!  Can I teach you something?");
+(900011, 2, "Hello!  Can I teach you something?");
 
 REPLACE INTO creature_default_trainer (creatureid, trainerid) VALUES
 (900011, 900011);
