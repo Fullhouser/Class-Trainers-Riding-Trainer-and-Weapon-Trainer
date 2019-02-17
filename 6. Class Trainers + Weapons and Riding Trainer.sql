@@ -2,6 +2,9 @@
 Class Trainers, Riding Trainer and Weapon Trainer made by Fullhouser
 */
 
+-- added this because some people don't know where (/which database) to execute this query.
+USE `world`;
+
 REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,npcflag,scale,unit_class,type) VALUES
 (900000,24036,'Warrior Trainer','Server Trainer',80,80,35,51,2,2,7),
 (900001,24032,'Paladin Trainer','Server Trainer',80,80,35,51,2,2,7),
